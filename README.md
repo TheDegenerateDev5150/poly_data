@@ -7,7 +7,9 @@
 
 A pipeline for fetching, processing, and analyzing Polymarket v2 trading data. Streams order events directly from the Polymarket **CTF Exchange V2** contract on Polygon via [Envio HyperSync](https://docs.envio.dev/docs/HyperSync/overview), joins them with market metadata from the Polymarket CLOB API, and writes structured trades to CSV.
 
-![xmayeth animation](xmayeth.gif)
+<p align="center">
+  <img src="xmayeth.gif" alt="xmayeth animation">
+</p>
 
 ## ⚠️ v1 → v2 migration
 
