@@ -7,6 +7,8 @@
 
 A pipeline for fetching, processing, and analyzing Polymarket v2 trading data. Streams order events directly from the Polymarket **CTF Exchange V2** contract on Polygon via [Envio HyperSync](https://docs.envio.dev/docs/HyperSync/overview), joins them with market metadata from the Polymarket CLOB API, and writes structured trades to CSV.
 
+![xmayeth animation](xmayeth.gif)
+
 ## ⚠️ v1 → v2 migration
 
 Polymarket migrated to a new set of CTF Exchange contracts on **2026-04-28** and stopped supporting their old subgraph indexer. The old pipeline in this repo (Goldsky subgraph + GraphQL polling) **no longer returns complete data**, so it has been removed.
